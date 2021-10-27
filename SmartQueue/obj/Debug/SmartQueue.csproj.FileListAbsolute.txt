@@ -106,3 +106,7 @@ C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\AWSSDK.Core.pdb
 C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\AWSSDK.Core.xml
 C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\AWSSDK.DynamoDBv2.pdb
 C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\AWSSDK.DynamoDBv2.xml
+C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\EntityFramework.dll
+C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\EntityFramework.SqlServer.dll
+C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\EntityFramework.xml
+C:\Users\gerrit\Desktop\SmartQueue\SmartQueue\SmartQueue\bin\EntityFramework.SqlServer.xml
