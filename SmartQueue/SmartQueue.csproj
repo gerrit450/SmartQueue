@@ -173,9 +173,11 @@
     <Compile Include="Controllers\DisplayPatentController.cs" />
     <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\VerifyController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Members.cs" />
     <Compile Include="Models\PatentInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -222,6 +224,7 @@
     <Content Include="Views\DisplayPatent\update.cshtml" />
     <Content Include="Views\DisplayPatent\delete.cshtml" />
     <None Include="Views\HelloWorld\displayAge.cshtml" />
+    <Content Include="Views\Verify\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
