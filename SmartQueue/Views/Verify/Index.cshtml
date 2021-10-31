@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string ident = "True";
+    string countString = " ";
+    countString = ViewData["count"].ToString();
+    int count = int.Parse(countString);
+    ident = ViewData["auth"].ToString();
+    if(ident == "False")
+    {
+        Response.Redirect("https://localhost:44312/");
+    }
+
+}
+
+<h2>Index</h2>
+<table>
+    <tr>
+        <th>Patent ID </th>
+        <th>First Name </th>
+        <th>Last Name </th>
+    </tr>
+    
+        @{
+            for (int i = 0; i < count; i++)
+            {
+            <tr>
+               <td>1</td>
+               <td>2</td>
+               <td>3</td>
+            </tr>
+            }
+        }
+   
+
+
+
+
+</table>
+
