@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "insert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<html>
+
+<body>
+    <h3>Please enter patent details:</h3>
+
+    <form action="https://localhost:44312/Insert" method="post">
+        <label>FirstName</label>
+        <br />
+        <input type="text" title="FirstName" name="FirstName"/>
+
+        <br />
+        <label>LastName</label>
+        <br />
+        <input type="text" title="LastName" name="LastName"/>
+
+        <br />
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
