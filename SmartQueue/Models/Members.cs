@@ -13,8 +13,7 @@ namespace authenticateModel
         {
             var client = new AmazonDynamoDBClient();
             var table = Table.LoadTable(client, "UserDB");
-            var item = table.GetItem("1"); // potential problem, how do we search the entire database without
-                                           // specifying the primary key?
+            var item = table.GetItem("1");
             if(item["UserName"] == user && item["UserPass"] == pass)
             {
                 return true;
